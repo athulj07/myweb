@@ -1,10 +1,10 @@
 pipeline{
   agent any
   stages{
-    stage("Git checkout"{
-        steps{
-          git credentialsId: 'github', url: 'https://github.com/athulj07/myweb.git'
+    stage("Git checkout"){
+            steps{
+                git credentialsId: 'github', url: 'https://github.com/athulj07/myweb.git'
+            }
         }
     }
-}
 }
