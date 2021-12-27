@@ -7,5 +7,3 @@ pipeline{
           git credentialsId: 'github', url: 'https://github.com/athulj07/myweb.git'
         }
     }
- }
-}
